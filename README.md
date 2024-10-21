@@ -33,6 +33,7 @@ This bioinformatics pipeline was developed for the analysis of genomic variants 
 3. 🧫 Identification of mutations associated with resistance, especially in genes such as *bla*KPC and outer membrane proteins.
 
 The pipeline processes Illumina sequencing data from parental strains and selected resistant mutants, allowing the identification of genomic variants that could be associated with observed resistance phenotypes.
+
 ---
 
 This repository contains a bioinformatics pipeline for the analysis of genomic variants in bacteria, with a particular focus on detecting antibiotic resistance mechanisms. The pipeline integrates cutting-edge tools such as GATK and Pindel for comprehensive variant analysis.
@@ -40,10 +41,15 @@ This repository contains a bioinformatics pipeline for the analysis of genomic v
 ## ✨ Main Features
 
 -🧹 Preprocessing of sequencing data
+
 -🔍 Read alignment with BWA-MEM
+
 -🧩 Detection of SNVs and small indels with GATK4 HaplotypeCaller
+
 -📏 Detection of large indels with Pindel
+
 -📝 Functional annotation of variants
+
 -📊 Generation of detailed reports in TSV format
 
 ## 🛠 Requirements
